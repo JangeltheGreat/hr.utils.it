@@ -1,0 +1,41 @@
+{
+  "page_count": 1,
+  "page_number": 1,
+  "page_size": 30,
+  "total_records": 1,
+  "meetings": [
+    {
+      "uuid": "Z6gCLMg2QautbTCbSqOU8Q==",
+      "meeting_number": 314976164,
+      "account_id": "f2k8T7RmTIGrwgiQ88WTiA",
+      "host_id": "MaQnDUMgQxeNZLZHgJF3wA",
+      "topic": "Hack Reactor's Zoom Meeting",
+      "start_time": "2017-06-15T22:30:43Z",
+      "duration": 2,
+      "total_size": 22189628,
+      "recording_count": 2,
+      "recording_files": [
+        {
+          "id": "e7e09b94-dec8-4059-a6fb-573ec2fb9b07",
+          "meeting_id": "Z6gCLMg2QautbTCbSqOU8Q==",
+          "recording_start": "2017-06-15T22:30:49Z",
+          "recording_end": "2017-06-15T22:32:03Z",
+          "file_type": "MP4",
+          "file_size": 21738258,
+          "play_url": "https://api.zoom.us/recording/play/CKrUQB6wQnny02K7EtEU6UKkw50qvkEFx38lTke4D26_XcITQMlqH8W4piZ1PvEZ",
+          "download_url": "https://api.zoom.us/recording/download/CKrUQB6wQnny02K7EtEU6UKkw50qvkEFx38lTke4D26_XcITQMlqH8W4piZ1PvEZ"
+        },
+        {
+          "id": "45d6236a-5542-4bb7-8073-cf67f7eae678",
+          "meeting_id": "Z6gCLMg2QautbTCbSqOU8Q==",
+          "recording_start": "2017-06-15T22:30:49Z",
+          "recording_end": "2017-06-15T22:32:03Z",
+          "file_type": "M4A",
+          "file_size": 451370,
+          "play_url": "https://api.zoom.us/recording/play/bU7FLm-cyOulEVpRN-cN3m5NuRnnuKThHQXhcXirkELyfYNTwNoptgtTZ85jkITy",
+          "download_url": "https://api.zoom.us/recording/download/bU7FLm-cyOulEVpRN-cN3m5NuRnnuKThHQXhcXirkELyfYNTwNoptgtTZ85jkITy"
+        }
+      ]
+    }
+  ]
+}

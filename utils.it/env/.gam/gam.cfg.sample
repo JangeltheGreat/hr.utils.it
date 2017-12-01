@@ -1,0 +1,72 @@
+[DEFAULT]
+activity_max_results = 100
+auto_batch_min = 0
+batch_size = 50
+cache_dir = /Users/ianwinsemius/utils.it/env/.gam/gamcache
+cache_discovery_only = true
+charset = utf-8
+classroom_max_results = 0
+client_secrets_json = client_secrets.json
+config_dir = /Users/<<<<<<<<<username>>>>>>>>/utils.it/env/.gam/
+contact_max_results = 100
+csv_input_column_delimiter = ,
+csv_output_column_delimiter = ,
+csv_output_convert_cr_nl = false
+csv_output_field_delimiter = ' '
+csv_output_users_audit = false
+customer_id = my_customer
+debug_level = 0
+device_max_results = 500
+domain = ''
+drive_dir = /Users/ianwinsemius/Downloads
+drive_max_results = 1000
+drive_v3_native_names = false
+email_batch_size = 100
+extra_args = 
+member_max_results = 200
+message_batch_size = 1000
+message_max_results = 1000
+never_time = Never
+no_browser = false
+no_cache = false
+no_update_check = true
+no_verify_ssl = false
+num_threads = 5
+oauth2_txt = oauth2.txt
+oauth2service_json = oauth2service.json
+section = ''
+show_convert_cr_nl = false
+show_counts_min = 1
+show_gettings = true
+show_multiprocess_info = false
+timezone = utc
+todrive_conversion = true
+todrive_localcopy = false
+todrive_parent = root
+todrive_timestamp = false
+todrive_user = ''
+user_max_results = 500
+
+[makersquare]
+domain = makersquare.com
+oauth2service_json = oauth2service_makersquare.json
+client_secrets_json = client_secrets_makersquare.json
+oauth2_txt = oauth2_makersquare.txt
+
+[telegraph]
+domain = telegraphacademy.com
+oauth2service_json = oauth2service_telegraph.json
+client_secrets_json = client_secrets_telegraph.json
+oauth2_txt = oauth2_telegraph.txt
+
+[reactorcore]
+domain = reactorcore.com
+oauth2service_json = oauth2service_reactorcore.json
+client_secrets_json = client_secrets_reactorcore.json
+oauth2_txt = oauth2_reactorcore.txt
+
+[hackreactor]
+domain = hackreactor.com
+oauth2service_json = oauth2service_hackreactor.json
+client_secrets_json = client_secrets_hackreactor.json
+oauth2_txt = oauth2_hackreactor.txt

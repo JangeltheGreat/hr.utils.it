@@ -1,0 +1,34 @@
+FORMAT
+curl -X POST "https://api.bluejeans.com/oauth2/token?Password" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"grant_type\": \"password\",  \"username\": \"accounts+sf1@hackreactor.com\",  \"password\": \"awesomebullets\"}"
+
+
+MANUAL - FOR EACH ACCOUNT
+/oauth2/token?Password
+{
+  "grant_type": "password",
+  "username": "accounts+sf1@hackreactor.com",
+  "password": "awesomebullets"
+}
+
+"user": 1260469, - IS ID FOR EACH ACOUNT
+
+for each user 
+get all meetings 
+	split on : "meetingGuid" to get meeting ID
+	-> output meeting id and meeting GUID (both are in GUID)
+	
+	create folder with "recordingName"
+		(listed in .pretty arrays files)
+			Get all recordings for each meeting - output content ID
+			curl -X GET "https://api.bluejeans.com/v1/user/1260469<userid>/meeting_history/880802865<meetingid>/recordings?meetingGuid=880802865%3A266113-97b7038c-87f5-48ef-b67b-b733d6706c81&access_token=1e60635f0c76471bb81996ffaf54eb88" -H  "accept: application/json"
+				contentid+userid
+				curl -X GET "https://api.bluejeans.com/v1/user/1260469<userid>/cms/3596287?isDownloadable=true&access_token=1e60635f0c76471bb81996ffaf54eb88" -H  "accept: application/json"
+					output all "file" links
+					download all "file"s as recording1 recording 2 in "recordingName" folder
+
+
+https://bjn-videoshare-prod.s3.amazonaws.com/1260469/trans/0-880802865Mediae2cdfd6a-bdcc-44a1-ba8f-921933bd63c0.jpg?AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1509066570&Signature=K5N0A5ZBm7EcGoKHq%2F74IeYnWg0%3D
+
+https://bjn-videoshare-prod.s3.amazonaws.com/1260469/trans/0-880802865Mediae2cdfd6a-bdcc-44a1-ba8f-921933bd63c0_Meta.mp4?response-content-disposition=attachment%3Bfilename%3Dsomething.mp4&AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1509398489&Signature=4Bl4hWZbFaqC9JsyI1aKlqfFr8M%3D
+
+hlsUrl": "https://bjnsecure_z-vh.akamaihd.net/i/1260469/trans/0-880802865Mediae2cdfd6a-bdcc-44a1-ba8f-921933bd63c0_,Meta,360,.mp4.csmil/master.m3u8?hdnea=st=1509139289~exp=1509150089~acl=/i/1260469/trans/0-880802865Mediae2cdfd6a-bdcc-44a1-ba8f-921933bd63c0_*~hmac=c6397dac6bc74e123c4577a83ebeacf3f4d285f646896d448a268bfaedc09093

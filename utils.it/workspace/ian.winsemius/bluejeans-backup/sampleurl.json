@@ -1,0 +1,40 @@
+{
+  "id": 3959841,
+  "contentType": "video/mp4",
+  "contentDescription": null,
+  "contentUrl": "https://bjn-videoshare-prod.s3.amazonaws.com/1267294/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981.mp4?response-content-disposition=attachment%3Bfilename%3Drecording.mp4&AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1510007508&Signature=GwDzOhf6C6NPAK%2F8xe0rLcXD1h8%3D",
+  "userId": 1267294,
+  "contentLocation": "bjn-videoshare-prod",
+  "contentProperties": {
+    "duration": 3624,
+    "thumbnail": "https://bjn-videoshare-prod.s3.amazonaws.com/1267294/trans/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981.jpg?AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1510007508&Signature=3w2g%2BzUf1Ky4i7K5fuwy%2B8XtYWY%3D",
+    "thumbnailSprite": "https://bjn-videoshare-prod.s3.amazonaws.com/1267294/trans/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981_sprite.jpg?AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1510007508&Signature=yWH%2BAScledF38sz%2FIRryfS8u9lA%3D",
+    "hdsUrl": "https://bjnsecure_z-vh.akamaihd.net/z/1267294/trans/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981_,Meta,128,.mp4.csmil/manifest.f4m?hdnea=st=1509748308~exp=1509759108~acl=/z/1267294/trans/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981_*~hmac=a45a3d78472c79224739bb46c3aee75f7d75d504e313ea298f87de6f9ed3051f",
+    "thumbnailCount": 51,
+    "thumbnailWidth": 128,
+    "thumbnailHeight": 72,
+    "levels": [
+      {
+        "file": "https://bjn-videoshare-prod.s3.amazonaws.com/1267294/trans/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981_Meta.mp4?response-content-disposition=attachment%3Bfilename%3Drecording.mp4&AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1510007508&Signature=kRInHV%2BLgmHsNkWNBLY19cDsF%2Bg%3D",
+        "width": 1280,
+        "bitrate": "6843",
+        "height": 768
+      },
+      {
+        "file": "https://bjn-videoshare-prod.s3.amazonaws.com/1267294/trans/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981_128.mp4?response-content-disposition=attachment%3Bfilename%3Drecording.mp4&AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1510007508&Signature=4I3uGGK9eZ%2FZ08EvhPvSi%2BqsRoc%3D",
+        "width": "640",
+        "bitrate": 256000,
+        "height": "384"
+      }
+    ],
+    "thumbnailInterval": 72,
+    "hlsUrl": "https://bjnsecure_z-vh.akamaihd.net/i/1267294/trans/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981_,Meta,128,.mp4.csmil/master.m3u8?hdnea=st=1509748308~exp=1509759108~acl=/i/1267294/trans/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981_*~hmac=e397f7e5db5a9e1e1a804009e5a2770dd9f6b7da5962d97fc5100038cc7f1320"
+  },
+  "created": 1498697633000,
+  "modified": 1498697844000,
+  "contentStatus": "PROCESSED",
+  "contentName": "0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981.mp4",
+  "contentCategory": "RECORDING",
+  "contentSize": 3520043,
+  "contentDuration": 3624
+}

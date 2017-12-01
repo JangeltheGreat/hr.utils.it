@@ -1,0 +1,52 @@
+[
+  {
+    "chapterId": "1",
+    "id": 1526941,
+    "startTimeOffset": 133666,
+    "endTimeOffset": 1878607,
+    "chapterName": "Hack's Meeting  2017-11-03T14:06:56.681-07:00 - 1",
+    "totalSize": 198354170,
+    "compositeContentId": 4901453,
+    "compositeContentStatus": "PROCESSED",
+    "parentRecordingId": 1161136,
+    "viewCount": 3,
+    "recordingSessions": [
+      {
+        "id": 2805867,
+        "contentStatus": "PROCESSED",
+        "recordingType": "MEDIA",
+        "contentId": 4901454,
+        "thumbnailUrl": "https://bjn-videoshare-prod.s3.amazonaws.com/1267293/trans/1-7322867521Media33287b3f-4349-4a85-886d-de19127b03a4.jpg?AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1509995575&Signature=vobUcCeO%2FCEGo0lzEOE8CcEyGnA%3D",
+        "startTimeOffset": 133666,
+        "endTimeOffset": 1878607,
+        "duration": 1745,
+        "startedBy": {
+          "endpointName": "Hack LA",
+          "endpointGuid": "5d29cc31-38f7-4eb1-bf23-f798b393f205"
+        },
+        "stoppedBy": {
+          "endpointName": null,
+          "endpointGuid": null
+        }
+      },
+      {
+        "id": 2805868,
+        "contentStatus": "PROCESSED",
+        "recordingType": "CONTENT",
+        "contentId": 4901452,
+        "thumbnailUrl": "https://bjn-videoshare-prod.s3.amazonaws.com/1267293/trans/0-7322867521Content39cbf81c-ec84-42d4-8020-7e222cec45ac.jpg?AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1509995575&Signature=WF5WlNGrQnhOo9Etj0%2BOC3XJKcA%3D",
+        "startTimeOffset": 133694,
+        "endTimeOffset": 1878478,
+        "duration": 1745,
+        "startedBy": {
+          "endpointName": "Hack LA",
+          "endpointGuid": "5d29cc31-38f7-4eb1-bf23-f798b393f205"
+        },
+        "stoppedBy": {
+          "endpointName": null,
+          "endpointGuid": null
+        }
+      }
+    ]
+  }
+]

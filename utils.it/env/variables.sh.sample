@@ -1,0 +1,68 @@
+#!/bin/bash
+
+userPath="**********insert the path to the directory that contains this repo here*********"
+
+binPath="$userPath/utils.it"
+dataPath="$binPath/DATA"
+tmpPath="$dataPath/tmp"
+logPath="$dataPath/log"
+emlPath="$dataPath/eml"
+csvPath="$dataPath/csv"
+envPath="$userPath/bin/env"
+gamPath="python $envPath/GAMADV-X/gam.py"
+gybPath="$envPath/gyb"
+gamConfigPath="$envPath/.gam"
+videoStoragePath=""
+
+hellosignApiKey='' 
+lastpassApiKey=''
+
+#Account info for admin zoom account (account@hackreactor.com)
+zoomApiKey=''
+zoomApiSecret=''
+
+#forkchop banish functions are referenced in offboarding scripts for GitHub
+#stderr is sent to null in these functions to keep the noise down.
+function hir-banish() {
+  forkchop omr HackReactorCore $1 2>/dev/null
+  forkchop omr ReBootKAMP-ME $1 2>/dev/null
+  forkchop omr TelegraphPrep $1 2>/dev/null
+  forkchop omr chopfurnace $1 2>/dev/null
+  forkchop omr coderamp $1 2>/dev/null
+  forkchop omr hackreactor-labs $1 2>/dev/null
+  forkchop omr hackreactor-lastmile $1 2>/dev/null
+  forkchop omr makersquare $1 2>/dev/null
+  forkchop omr makersquare-labs $1 2>/dev/null
+  forkchop omr reactorcore $1 2>/dev/null
+  forkchop omr reactorcore-labs $1 2>/dev/null
+  forkchop omr remotebeta $1 2>/dev/null
+  forkchop omr remotebeta-labs $1 2>/dev/null
+  forkchop omr spacekitten $1 2>/dev/null
+  forkchop omr telegraphacademy $1 2>/dev/null
+  forkchop omr telegraphacademy-labs $1 2>/dev/null
+  forkchop omr thepartnerschool123 $1 2>/dev/null
+}
+
+function github-banish() {
+  forkchop omr HackReactorCore $1 2>/dev/null
+  forkchop omr ReBootKAMP-ME $1  2>/dev/null
+  forkchop omr TelegraphPrep $1 2>/dev/null
+  forkchop omr chopfurnace $1 2>/dev/null
+  forkchop omr coderamp $1 2>/dev/null
+  forkchop omr cunabula $1 2>/dev/null
+  forkchop omr hackreactor-labs $1 2>/dev/null
+  forkchop omr hackreactor-lastmile $1 2>/dev/null
+  forkchop omr macroscope $1 2>/dev/null
+  forkchop omr makersquare $1 2>/dev/null
+  forkchop omr makersquare-labs $1 2>/dev/null
+  forkchop omr reactorcore $1 2>/dev/null
+  forkchop omr reactorcore-labs $1 2>/dev/null
+  forkchop omr remotebeta $1 2>/dev/null
+  forkchop omr remotebeta-labs $1 2>/dev/null
+  forkchop omr satellite-game $1 2>/dev/null
+  forkchop omr spacekitten $1 2>/dev/null
+  forkchop omr telegraphacademy $1 2>/dev/null
+  forkchop omr telegraphacademy-labs $1 2>/dev/null
+  forkchop omr thepartnerschool123 $1 2>/dev/null
+  forkchop omr hackreactor $1 2>/dev/null
+}

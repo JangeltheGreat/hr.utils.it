@@ -1,0 +1,40 @@
+############ gam exclusions
+
+#env/.gam folder excludes all oauth2 files, and client secrets files
+/env/.gam/*
+!/env/.gam/*.sample
+
+#keep gam.cfg.sample
+!/env/.gam/*.sample 
+
+#dont track gam result cache
+/env/.gam/gamcache/* 
+
+############ gyb exclusions
+
+/env/gyb/gybhr/*
+/env/gyb/gybmks/*
+/env/gyb/gybrc/*
+/env/gyb/gybtga/*
+!/env/gyb/gybhr/gyb
+!/env/gyb/gybmks/gyb
+!/env/gyb/gybrc/gyb
+!/env/gyb/gybtga/gyb
+
+############ variables.sh
+
+#do not track the variables file in env
+env/variables.sh 
+
+############ DATA folder exclusions
+
+/DATA/csv/*
+/DATA/eml/*
+/DATA/log/*
+/DATA/pdf/*
+/DATA/tmp/*
+/DATA/mp4/*
+
+############ Annoyance exclusions
+
+.DS_Store

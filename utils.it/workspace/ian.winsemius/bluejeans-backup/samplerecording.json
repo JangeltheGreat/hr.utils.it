@@ -1,0 +1,52 @@
+[
+  {
+    "chapterId": "1",
+    "id": 1203558,
+    "startTimeOffset": 854,
+    "endTimeOffset": 3625795,
+    "chapterName": "Charlie Wilhite 6/28/17  2017-06-28T16:53:27.873-07:00 - 1",
+    "totalSize": 493956524,
+    "compositeContentId": 3959842,
+    "compositeContentStatus": "PROCESSED",
+    "parentRecordingId": 915655,
+    "viewCount": 0,
+    "recordingSessions": [
+      {
+        "id": 2197310,
+        "contentStatus": "PROCESSED",
+        "recordingType": "MEDIA",
+        "contentId": 3959843,
+        "thumbnailUrl": "https://bjn-videoshare-prod.s3.amazonaws.com/1267294/trans/1-866555154Media2b7bc074-8687-491d-a03a-bf28e8430925.jpg?AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1509749611&Signature=l%2B5j3w1NQA4kvUquFVNedx3Qb74%3D",
+        "startTimeOffset": 854,
+        "endTimeOffset": 3625795,
+        "duration": 3625,
+        "startedBy": {
+          "endpointName": "Hack ATX",
+          "endpointGuid": "ff99144c-0c25-4ac5-9291-da2c4ac073b0"
+        },
+        "stoppedBy": {
+          "endpointName": null,
+          "endpointGuid": null
+        }
+      },
+      {
+        "id": 2197311,
+        "contentStatus": "PROCESSED",
+        "recordingType": "CONTENT",
+        "contentId": 3959841,
+        "thumbnailUrl": "https://bjn-videoshare-prod.s3.amazonaws.com/1267294/trans/0-866555154Content7759cc7f-b471-4645-b33e-a367197dd981.jpg?AWSAccessKeyId=AKIAI4PMZ7OI5M7DGL2Q&Expires=1509749611&Signature=c4b2kGU94C1F1%2Fdxp3Six1XVM00%3D",
+        "startTimeOffset": 1105,
+        "endTimeOffset": 3625623,
+        "duration": 3624,
+        "startedBy": {
+          "endpointName": "Hack ATX",
+          "endpointGuid": "ff99144c-0c25-4ac5-9291-da2c4ac073b0"
+        },
+        "stoppedBy": {
+          "endpointName": null,
+          "endpointGuid": null
+        }
+      }
+    ]
+  }
+]

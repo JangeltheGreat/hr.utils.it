@@ -1,0 +1,1 @@
+grc csv $1 gam select reactorcore user ~Owner add drivefileacl ~id user ceo.bot@reactorcore.com role owner 
